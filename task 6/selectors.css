@@ -35,7 +35,7 @@ p {
 
 input {
     border-width: 3px;
-    border-color: solid red;
+    border-color: red;
 }
 
 /* Give everything with the class 'hello' a white background*/
