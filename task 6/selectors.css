@@ -63,9 +63,10 @@ input text {
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-/*div:nth-child(3) p {
-    background-color: pink;
-}*/
+
+div p {
+    background-color: rgb(228, 88, 111);
+}
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
