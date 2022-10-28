@@ -71,8 +71,8 @@ div:nth-of-type(3) p {
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
-div:nth-of-type(3) p {
-    border-width: 20px;
+div:nth-of-type(3) p:nth-of-type(2) {
+    border-width: 5px;
     border-color: white;
     border-style: solid;
 }
@@ -102,6 +102,10 @@ label {
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 
+#special {
+    color: green;
+    font-size: 100px;
+}
 
 /*Make the <h1> element's color change to blue when hovered over */
 
