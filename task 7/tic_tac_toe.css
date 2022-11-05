@@ -2,6 +2,9 @@ h1 {
     text-align: center;
 }
 
+table {
+    align-self: center;
+}
 
 .box5 {
     border-width: 1px;
