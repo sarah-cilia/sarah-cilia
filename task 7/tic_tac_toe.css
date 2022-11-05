@@ -2,58 +2,41 @@ h1 {
     text-align: center;
 }
 
-.tbl {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.box5 {
+table {
     border-width: 1px;
     border-style: solid;
     border-color: black;
+}
+
+.box5 {
     width: 100px;
     height: 100px;
 }
 
 .box1 {
-    border-width: 1px;
     border-left: 0px;
     border-top: 0px;
-    border-style: solid;
-    border-color: black;
     width: 100px;
     height: 100px;
 }
 
 .box3 {
-    border-bottom: 1px;
-    border-left: 1px;
     border-right: 0px;
     border-top: 0px;
-    border-style: solid;
-    border-color: black;
     width: 100px;
     height: 100px;
 }
 
 .box7 {
-    border-top: 1px;
-    border-right: 1px;
     border-left: 0px;
     border-bottom: 0px;
-    border-style: solid;
-    border-color: black;
     width: 100px;
     height: 100px;
 }
 
 .box9 {
-    border-top: 1px;
-    border-left: 1px;
     border-right: 0px;
     border-bottom: 0px;
-    border-style: solid;
-    border-color: black;
     width: 100px;
     height: 100px;
 }
