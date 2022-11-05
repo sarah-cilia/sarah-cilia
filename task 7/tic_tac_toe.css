@@ -19,6 +19,8 @@ table {
     border-right: 1px;
     border-style: solid;
     border-color: black;
+    # width: 100px;
+    height: 100px;
 }
 
 .box3 {
@@ -26,6 +28,8 @@ table {
     border-left: 1px;
     border-style: solid;
     border-color: black;
+    width: 100px;
+    height: 100px;
 }
 
 .box7 {
@@ -33,6 +37,8 @@ table {
     border-right: 1px;
     border-style: solid;
     border-color: black;
+    width: 100px;
+    height: 100px;
 }
 
 .box8 {
@@ -40,4 +46,6 @@ table {
     border-left: 1px;
     border-style: solid;
     border-color: black;
+    width: 100px;
+    height: 100px;
 }
