@@ -3,7 +3,7 @@ h1 {
 }
 
 table {
-    align-self: center;
+    box-align: center;
 }
 
 .box5 {
