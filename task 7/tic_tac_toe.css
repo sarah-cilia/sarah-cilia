@@ -7,3 +7,31 @@ table {
     border-style: solid;
     border-color: black;
 }
+
+.box1 {
+    border-bottom: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box3 {
+    border-bottom: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box7 {
+    border-top: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box8 {
+    border-top: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: black;
+}
