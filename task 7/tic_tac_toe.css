@@ -1,5 +1,9 @@
+h1 {
+    text-align: center;
+}
+
 table {
-    align-items: center;
+    align-content: center;
 }
 
 .box5 {
