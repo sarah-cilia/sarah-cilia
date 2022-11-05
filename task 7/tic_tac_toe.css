@@ -1,4 +1,8 @@
-table .box5 {
+table {
+    align-items: center;
+}
+
+.box5 {
     border-width: 1px;
     border-style: solid;
     border-color: black;
