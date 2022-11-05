@@ -2,8 +2,9 @@ h1 {
     text-align: center;
 }
 
-table {
-    align-content: center;
+.tbl {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box5 {
