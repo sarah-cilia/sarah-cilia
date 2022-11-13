@@ -1,3 +1,5 @@
 p {
-    color: blue;
+    color: rgb(83, 83, 207);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
 }
