@@ -3,6 +3,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 
 h1 {
@@ -12,6 +13,11 @@ h1 {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+div {
+    border-style: solid;
+    border-left: 2px;
 }
 
 body {
