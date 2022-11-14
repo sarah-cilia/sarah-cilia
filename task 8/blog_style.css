@@ -18,6 +18,7 @@ p {
 
 .Intro {
     border-style: solid;
+    border-right: 0px;
     border-color: #1372c0;
 }
 
