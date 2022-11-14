@@ -4,7 +4,7 @@ h1 {
     letter-spacing: .2rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    font-weight: 700px;
+
 }
 
 h2 {
@@ -19,6 +19,8 @@ p {
 .Intro {
     border-style: solid;
     border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
     border-color: #1372c0;
 }
 
