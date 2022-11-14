@@ -18,11 +18,11 @@ p {
 
 div {
     border-style: solid;
-    border-left: 2px;
+    border-left: 10px;
     border-top: 0px;
     border-bottom: 0px;
     border-right: 0px;
-    border-color: #bdc7cf;
+    border-color: #1372c0;
 }
 
 hr {
