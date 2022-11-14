@@ -20,6 +20,11 @@ div {
     border-left: 2px;
 }
 
+hr {
+    width: auto;
+    color: gray;
+}
+
 body {
     border: solid 10px;
     border-color: #bdc7cf;
