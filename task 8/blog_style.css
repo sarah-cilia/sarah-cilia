@@ -28,4 +28,5 @@ hr {
 body {
     border: solid 10px;
     border-color: #bdc7cf;
+    width: 200px;
 }
