@@ -1,5 +1,16 @@
-h2 {
-    color: rgb(83, 83, 207);
+h1 {
+    color: #3098dd;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Zen Dots', cursive;
+
+}
+
+h1 {
+    color: #354b63;
+}
+
+body {
+    border: solid 10px;
+    border-color: #bdc7cf;
 }
