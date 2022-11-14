@@ -31,6 +31,7 @@ hr {
 }
 
 body {
+    margin: auto;
     border: solid 10px;
     border-color: #bdc7cf;
     padding: 10px;
