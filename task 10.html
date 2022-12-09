@@ -40,7 +40,7 @@
     </nav>
 
     <h2>Reverse Column Navbar</h2>
-    <nav class="nav flex-column reverse">
+    <nav class="nav flex-column-reverse">
         <a class="nav-link active" aria-current="page" href="#">Active</a>
         <a class="nav-link" href="#">Link</a>
         <a class="nav-link" href="#">Link</a>
@@ -65,12 +65,20 @@
     </ul>
 
     <h2>Tab Navbar</h2>
-    <div class="d-flex align-items-center flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Active</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight">Disabled</div>
-    </div>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
 
     <h2>Navbar Style 2</h2>
     <ul class="nav justify-content-end">
