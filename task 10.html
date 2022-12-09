@@ -16,12 +16,12 @@
 <body>
     <h1>Nav Flexbox</h1>
     <h2>Navbar Style 1</h2>
-    <div class="d-flex align-items-center flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Active</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link disabled" aria-current="page" href="#">Disabled</a></div>
-    </div>
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </nav>
 
     <h2>Navbar Style 2</h2>
     <div class="d-flex justify-content-evenly align-items-center flex-row bd-highlight mb-3">
@@ -32,29 +32,37 @@
     </div>
 
     <h2>Column Navbar</h2>
-    <div class="d-flex justify-content-start flex-column flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Active</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight">Disabled</div>
-    </div>
+    <nav class="nav flex-column">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </nav>
 
     <h2>Reverse Column Navbar</h2>
-    <div class="d-flex justify-content-start flex-column-reverse flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Active</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight">Disabled</div>
-    </div>
+    <nav class="nav flex-column reverse">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </nav>
 
 
     <h2>Responsive Navbar</h2>
-    <div class="d-flex align-items-sm-center justify-content-center align-items-center  flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Active</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight">Disabled</div>
-    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
 
     <h2>Tab Navbar</h2>
     <div class="d-flex align-items-center flex-row bd-highlight mb-3">
@@ -65,12 +73,20 @@
     </div>
 
     <h2>Navbar Style 2</h2>
-    <div class="d-flex justify-content-end align-items-center flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Active</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight"><a class="nav-link active" aria-current="page" href="#">Link</a></div>
-        <div class="p-2 bd-highlight">Disabled</div>
-    </div>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
 
 </body>
 
